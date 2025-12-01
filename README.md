@@ -4,7 +4,7 @@ A Retrieval-Augmented Generation (RAG) system built with LangChain and LangGraph
 
 ## 🎯 Features
 
-- **Natural Language Queries**: Ask questions like "Where can I find pizza in New York?"
+- **Natural Language Queries**: Ask questions like "Where can I find pizza in Frankfurt?"
 - **Live Data Scraping**: Fetches real-time restaurant data from multiple sources
 - **RAG Architecture**: Uses vector embeddings for semantic search
 - **LangGraph Agent**: Sophisticated multi-step reasoning workflow
