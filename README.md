@@ -113,12 +113,12 @@ python main.py --interactive
 
 **Single Query:**
 ```bash
-python main.py --query "Where can I find pizza in New York?"
+python main.py --query "Where can I find pizza in Frankfurt?"
 ```
 
 **Structured Search:**
 ```bash
-python main.py --city "Los Angeles" --dish "sushi"
+python main.py --city "Munich" --dish "sushi"
 ```
 
 **Start API Server:**
@@ -137,11 +137,11 @@ from main import RestaurantFinder, quick_search
 
 # Using the RestaurantFinder class
 finder = RestaurantFinder()
-result = finder.find("Where can I find tacos in Austin?")
+result = finder.find("Where can I find tacos in London?")
 print(result)
 
 # Quick search function
-result = quick_search("Chicago", "deep dish pizza")
+result = quick_search("Tokyo", "deep dish pizza")
 print(result)
 ```
 
